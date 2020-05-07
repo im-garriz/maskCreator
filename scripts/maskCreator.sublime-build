@@ -1,0 +1,4 @@
+{
+    "cmd": ["bash", "-c", "g++ '$file' -std=c++17 utils.cpp -o '$file_base_name' '-I/usr/local/include' `pkg-config --cflags --libs opencv` && ./${file_base_name}"],
+    "selector": "source.c++",
+}
