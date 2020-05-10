@@ -4,6 +4,7 @@
 #include <vector>
 #include <filesystem>
 
+// I declase extension extern so as to be read from main.cpp
 extern std::string extension;
 
 namespace utils
